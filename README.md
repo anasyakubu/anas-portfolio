@@ -17,11 +17,11 @@ This is a simple to understand nextjs code for my portfolio. Its my first NextJs
 
 ## Authors
 
-Treasure Uzoma 
-ex. [@Treasureuzoma1](https://twitter.com/Treasureuzoma1)
+Anas Yakubu
+ex. [@anasyakubu](https://twitter.com/_anasdev)
 
 
 ## Acknowledgments
 
 Inspiration
-* [vickyjay’s portfolio](https://vickyjay.vercel.app)
+* [Treasure Uzoma’s portfolio](https://treasureuzoma.netlify.app)

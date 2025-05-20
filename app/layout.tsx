@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         url: "https://treasureuzoma.netlify.app",
         images: [
             {
-                url: "https://treasureuzoma.netlify.app/images/screenshot.png",
+                url: "https://anasyakubu.netlify.app/images/preview.png",
                 alt: "Anas Yakubu Portfolio Preview",
             },
         ],

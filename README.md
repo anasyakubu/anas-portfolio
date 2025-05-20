@@ -2,7 +2,7 @@
 
 NextJs version for my portfolio 
 
-<img src="https://treasureuzoma.netlify.app/images/screenshot.png" width="98%"/>
+<img src="https://anasyakubu.netlify.app/images/preview.png" width="98%"/>
 
 
 ## Description

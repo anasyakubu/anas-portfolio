@@ -1,6 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import DailyInvoiceLogo from "../../public/images/dailyinvoice-logo.png"
+import SpiralEventLogo from "../../public/images/spiraleE4.png";
+import Image from "next/image";
 
 const Services = () => {
   const [visibleStates, setVisibleStates] = useState(Array(6).fill(false)); // Track visibility of each service
@@ -58,30 +61,20 @@ const Services = () => {
           <div className="grid place-items-center my-5 gap-6 sm:grid-cols-2 md:grid-cols-3 sm:gap-8">
             {[
               {
-                title: "WEB DEVELOPMENT",
+                logo: DailyInvoiceLogo,
+                title: "DAILY INVOICE",
                 description:
                   "I design and build beautiful websites with React Js, CSS, Tailwind, NextJs and JavaScript.",
                 className: "block_left",
               },
               {
-                title: "API INTEGRATIONS",
+                logo: SpiralEventLogo,
+                title: "SPIRAL EVENT",
                 description:
                   "Integrating backend services and APIs to the frontend securely to fetch and display data in real time.",
                 className: "block_right",
               },
-              {
-                title: "RESPONSIVE DESIGN",
-                description:
-                  "Building websites and applications that work seamlessly on various devices and screen sizes, from desktop to smartphones.",
-                className: "block_left",
-              },
 
-              {
-                title: "TECHNICAL SUPPORT",
-                description:
-                  "Providing technical support to troubleshoot frontend-related issues.",
-                className: "block_right",
-              },
             ].map((service, index) => (
               <motion.div
                 key={index}
@@ -100,7 +93,8 @@ const Services = () => {
                 }} // Add spring effect
               >
                 <div>
-                  <h3 className="font-bold text-xl text-white w-[69%] md:w-full">
+                  <Image className="w-12" src={service.logo} alt="" />
+                  <h3 className="font-bold text-xl text-white w-[69%] md:w-full mt-5">
                     {service.title}
                   </h3>
                   <p className={pStyle}>{service.description}</p>

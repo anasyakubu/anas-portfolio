@@ -3,7 +3,9 @@ import Image from "next/image";
 const Skills = () => {
   const skillsList = [
     { name: "JavaScript", image: "/images/stacks/js.png", desc: "Programming Language" },
-    { name: "Firebase", image: "/images/stacks/firebase.png", desc: "Database/Auth" },
+    { name: "TypeScript", image: "/images/stacks/TypeScript.png", desc: "Programming Language" },
+    { name: "AWS", image: "/images/stacks/aws.png", desc: "Programming Language" },
+    { name: "Firebase", image: "/images/stacks/firebase.png", desc: "Cloud Tech" },
     { name: "Next.Js", image: "/images/stacks/nextjs.png", desc: "Fullstack Framework" },
     { name: "React.Js", image: "/images/stacks/react.png", desc: "Frontend Framework" },
     { name: "HTML", image: "/images/stacks/html.png", desc: "Markup Language" },

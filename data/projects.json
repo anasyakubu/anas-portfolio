@@ -1,0 +1,463 @@
+[{
+  "_id": {
+    "$oid": "667a4c373168b16583db6431"
+  },
+  "title": "Daily Invoice",
+  "description": "A application for generating inovice and receipts for small businesses and freelancers ",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+  "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733164804/anasyakubu-cms-images/7965fb0c-9b7c-404e-8291-5c227726f31b.png",
+
+  "previewLink": "https://daily-invoice.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T04:48:55.078Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T18:40:06.677Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a4cce3168b16583db6437"
+  },
+  "title": "Titan AI",
+  "description": "AI Application for students and content writers to help them simplify there task",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+  "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733164981/anasyakubu-cms-images/46a86ec3-3241-43a8-9f00-b2f9eb6e425d.png",
+  "previewLink": "https://titan-orpin.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T04:51:26.908Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T18:43:03.242Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a50373168b16583db6474"
+  },
+  "title": "Explanied",
+  "description": "AI Application for explaining movies, anime and cartoons",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733168446/anasyakubu-cms-images/dfb6effb-d3a9-4449-848f-f35d4bb954ee.png",
+  "previewLink": "https://movie-explainer.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:05:59.024Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:40:48.229Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a59c7de04d1d2e480be0f"
+  },
+  "title": "3D Portfolio",
+  "description": "My 3D Portfolio design using threejs and React",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733169019/anasyakubu-cms-images/7ce2c453-06c6-4918-940d-a1a2de892939.png",
+  "previewLink": "https://anas-3d-portfolio.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:46:47.748Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:50:20.851Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5ba2de04d1d2e480be22"
+  },
+  "title": "Portfolio",
+  "description": "My Personal Portfolio Website",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733169200/anasyakubu-cms-images/1a69ccee-8549-4ec2-8941-fe98f1e9e88e.png",
+  "previewLink": "https://anasyakubu.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:54:42.080Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:53:22.412Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5ce6de04d1d2e480be28"
+  },
+  "title": "Tech Blog",
+  "description": "A Technology Blog Post websites for Tech Industries ",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733170346/anasyakubu-cms-images/c6b5f75f-ceac-4670-956b-b49a3dc8d70c.png",
+  "previewLink": "https://tech-blog-articles.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T06:00:06.739Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T20:12:28.037Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a4d413168b16583db643f"
+  },
+  "title": "Promptee",
+  "description": "A AI prompt center to search and add prompts for users",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733165075/anasyakubu-cms-images/ed841bad-f8ed-47a9-b7ad-4794345cb537.png",
+  "previewLink": "https://ai-prompts-app-nine.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T04:53:21.750Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T18:44:37.038Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a4e483168b16583db6454"
+  },
+  "title": "Task Manager",
+  "description": "A Fullstack advance Task Manager that keeps tracks of your tasks",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+  "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733168028/anasyakubu-cms-images/d042c017-08ed-4974-96af-eac2bdb36afa.png",
+  "previewLink": "https://devograph.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T04:57:44.504Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:33:54.238Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5a48de04d1d2e480be15"
+  },
+  "title": "First Portifolio",
+  "description": "My First Portfolio Design using Nextjs",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733169079/anasyakubu-cms-images/d517a4bb-0156-4d8f-8b1c-e755ccd5b4ad.png",
+  "previewLink": "https://portfolio-beta-psi.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:48:56.622Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:51:20.820Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "668cee48bb16bf61c317c7c9"
+  },
+  "title": "Personal CMS",
+  "description": "A Personal CMS that manage all my projects, users, Applications etc.",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733170832/anasyakubu-cms-images/f943fa63-f8a2-4e75-886e-d1f141900dec.png",
+  "previewLink": "https://anas-cms-hub.vercel.app",
+  "createdAt": {
+    "$date": "2024-07-09T08:01:12.234Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T20:20:34.252Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a4ef13168b16583db645a"
+  },
+  "title": "Healthy",
+  "description": "A website for Healthy food consumptions",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733168331/anasyakubu-cms-images/b4430360-0259-447f-9933-22ab52544fcd.png",
+  "previewLink": "https://healthy-website-psi.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:00:33.030Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:38:53.074Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a4f533168b16583db6460"
+  },
+  "title": "FOC AI",
+  "description": "AI application for Faculty of Computing Bayero University Kano",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733164522/anasyakubu-cms-images/e6a085c4-35e2-4e8d-83f8-ecfedd575c01.png",
+  "previewLink": "https://foc-ai.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:02:11.005Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T18:35:24.405Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a529c3168b16583db6498"
+  },
+  "title": "Maalesh Travel",
+  "description": "A webapp for traveling agencies in Nigeria",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://firebasestorage.googleapis.com/v0/b/first-crud-f85ea.appspot.com/o/anasyakubu-cms-images%2Fdbfa27ac-33ae-49b5-bfbe-b6dc8aa82519?alt=media&token=c4f973eb-d3fd-42e6-b1d9-fd24686360c0",
+  "previewLink": "https://maaleshtravels.com.ng",
+  "createdAt": {
+    "$date": "2024-06-25T05:16:12.804Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-25T05:16:12.804Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5746de04d1d2e480bdf1"
+  },
+  "title": "Berly Holdings",
+  "description": "A website for and Investment Company in Nigeria",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://firebasestorage.googleapis.com/v0/b/first-crud-f85ea.appspot.com/o/anasyakubu-cms-images%2Ff1c3b7fd-d0ad-4d05-a0a3-12b5d1a4e1b5?alt=media&token=c064d01e-c784-4ce2-a2a5-a40e84762529",
+  "previewLink": "https://berylholdings.com.ng",
+  "createdAt": {
+    "$date": "2024-06-25T05:36:06.402Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-25T05:36:06.402Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a57c3de04d1d2e480bdf7"
+  },
+  "title": "King Mark ",
+  "description": "A job Portal for and Organization in Nigeria",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://firebasestorage.googleapis.com/v0/b/first-crud-f85ea.appspot.com/o/anasyakubu-cms-images%2Fce1c5355-988c-40d1-a526-5ec638cf2fc3?alt=media&token=2e50feea-d790-4b3c-87e5-bc9f667ed429",
+  "previewLink": "https://www.kingmarkgloballtd.com.ng",
+  "createdAt": {
+    "$date": "2024-06-25T05:38:11.343Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-25T05:38:11.343Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5818de04d1d2e480bdfd"
+  },
+  "title": "khadi Kaku Fashion House",
+  "description": "A web application for a fashion school",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://firebasestorage.googleapis.com/v0/b/first-crud-f85ea.appspot.com/o/anasyakubu-cms-images%2F7f174203-5332-4d12-bc9e-685da7144aec?alt=media&token=8078ab6a-3024-40a3-8a56-7186fffc42a7",
+  "previewLink": "https://khadikaku.com.ng",
+  "createdAt": {
+    "$date": "2024-06-25T05:39:36.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-25T05:39:36.298Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5d38de04d1d2e480be2d"
+  },
+  "title": "Github Radar",
+  "description": "A Data bank to search all github profile and accounts",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733170401/anasyakubu-cms-images/02370019-246a-40ab-82b6-7e82471c2878.png",
+  "previewLink": "https://github-radar.vercel.app/",
+  "createdAt": {
+    "$date": "2024-06-25T06:01:28.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T20:13:23.083Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a4dbd3168b16583db644e"
+  },
+  "title": "Blog 3",
+  "description": "A blog post website for user to read create and share Articles",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733165143/anasyakubu-cms-images/da8efd84-e8ac-4fa8-860c-b4c3ab0ef610.png",
+  "previewLink": "https://blog-3-post.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T04:55:25.391Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T18:45:45.574Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a51c13168b16583db648c"
+  },
+  "title": "Kano Pharmacy",
+  "description": "A website design for Kano Pharmacy Kano, Nigeria",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733168721/anasyakubu-cms-images/c1e460dc-3234-4dca-918b-55d9d35230e9.png",
+  "previewLink": "https://pharmacy-three-tau.vercel.app",
+  "createdAt": {
+    "$date": "2024-06-25T05:12:33.666Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T19:45:22.792Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a523d3168b16583db6492"
+  },
+  "title": "Diligent Basic and Remedial Studies",
+  "description": "A website and portal for Remedial Studies in Kano, Nigeria",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://firebasestorage.googleapis.com/v0/b/first-crud-f85ea.appspot.com/o/anasyakubu-cms-images%2F6a6ea4f1-945b-4e94-9f5a-c5be5aca579a?alt=media&token=a6957ae6-f81c-45ff-9901-731c49c4934d",
+  "previewLink": "https://dbrs.com.ng",
+  "createdAt": {
+    "$date": "2024-06-25T05:14:37.885Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-25T05:14:37.885Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+},
+{
+  "_id": {
+    "$oid": "667a5de2de04d1d2e480be39"
+  },
+  "title": "Kiddo Alert ",
+  "description": "Kiddo Alert Websit Design using Nextjs",
+   "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
+  "status": "Live",
+    "githubLink": "",
+  "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733170698/anasyakubu-cms-images/9e01645f-be33-4910-a455-8e6145f4dbde.png",
+  "previewLink": "https://kiddoalert.com",
+  "createdAt": {
+    "$date": "2024-06-25T06:04:18.896Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T20:18:41.559Z"
+  },
+  "__v": 0,
+  "userID": {
+    "$oid": "667a4acb3168b16583db6422"
+  }
+}]

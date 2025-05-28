@@ -4,12 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import DailyInvoiceLogo from "../../public/images/dailyinvoice-logo.png"
 import SpiralEventLogo from "../../public/images/spiraleE4.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Services = () => {
   const [visibleStates, setVisibleStates] = useState(Array(6).fill(false)); // Track visibility of each service
   const refs = useRef<(HTMLDivElement | null)[]>([]); // Refs for each service block
 
   const pStyle = "text-sm font-rubik text-[#808e91] mt-4 leading-[1.44rem]";
+  const linkStyle = "text-sm mt-10";
 
   // Animation variants for each service block
   const itemVariants = {
@@ -64,24 +66,28 @@ const Services = () => {
                 logo: DailyInvoiceLogo,
                 title: "DAILY INVOICE",
                 description:
-                  "I design and build beautiful websites with React Js, CSS, Tailwind, NextJs and JavaScript.",
+                  "A user-friendly invoicing platform built with React, Tailwind CSS, and Next.js—designed to help freelancers and small businesses create, manage, and send invoices effortlessly.",
+                link: "https://dailyinvoice.xyz",   // ← add your live URL or repo
                 className: "block_left",
               },
               {
                 logo: SpiralEventLogo,
                 title: "SPIRAL EVENT",
                 description:
-                  "Integrating backend services and APIs to the frontend securely to fetch and display data in real time.",
+                  "A seamless event-management solution connecting backend services to the frontend via APIs for real-time data syncing, secure user management, and dynamic event tracking.",
+                link: "https://spiralevent.com.ng",    // ← add your live URL or repo
                 className: "block_right",
-              },
+              }
+
+
 
             ].map((service, index) => (
               <motion.div
                 key={index}
                 ref={(el) => {
                   refs.current[index] = el;
-                }} // Proper ref assignment without return
-                className={`w-full h-[270px] flex items-center justify-center relative overflow-hidden px-7 font-clash bg-[#0a1c20] ${service.className}`}
+                }}
+                className={`w-full h-[350px] flex items-center justify-center relative overflow-hidden px-7 font-clash bg-[#0a1c20] ${service.className}`}
                 variants={itemVariants}
                 initial="hidden"
                 animate={visibleStates[index] ? "visible" : "hidden"}
@@ -90,15 +96,21 @@ const Services = () => {
                   delay: index * 0.2,
                   type: "spring",
                   stiffness: 300,
-                }} // Add spring effect
+                }}
               >
-                <div>
-                  <Image className="w-12" src={service.logo} alt="" />
-                  <h3 className="font-bold text-xl text-white w-[69%] md:w-full mt-5">
-                    {service.title}
-                  </h3>
-                  <p className={pStyle}>{service.description}</p>
-                </div>
+                <Link href={service.link} target="_blank" rel="noopener noreferrer" className="w-full h-full flex items-center justify-center">
+                  <div>
+                    <Image className="w-12" src={service.logo} alt={service.title} />
+                    <h3 className="font-bold text-xl text-white w-[69%] md:w-full mt-5">
+                      {service.title}
+                    </h3>
+                    <p className={pStyle}>{service.description}</p>
+
+                    <Link className={linkStyle} href={service.link} target="_blank" rel="noopener noreferrer">
+                      {service.link}
+                    </Link>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </div>

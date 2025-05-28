@@ -30,7 +30,7 @@ const Portfolio = () => {
       tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion", "Node Mailer"],
       previewLink: "https://gappayfinance.vercel.app",
     },
-    
+
     {
       title: "SecretSender",
       description:
@@ -110,13 +110,11 @@ const Portfolio = () => {
               <motion.div
                 key={`project-${index}`}
                 whileHover={{
-                  scale: 1.05,
-                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
+                  scale: 1.05, boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
                   transition: { duration: 0.3 },
                 }}
                 whileTap={{
-                  scale: 1.05,
-                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
+                  scale: 1.05, boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.3)",
                   transition: { duration: 0.3 },
                 }}
                 className="min-h-[300px] my-2 flex items-center justify-center overflow-hidden py-9 px-7 bg-[#0a1c20] w-full md:px-8"
@@ -132,9 +130,7 @@ const Portfolio = () => {
                     {project.tags
                       .map((tag, tagIndex) => (
                         <span
-                          key={`tag-${index}-${tagIndex}`}
-                          className={tagStyle}
-                        >
+                          key={`tag-${index}-${tagIndex}`} className={tagStyle}>
                           {tag}
                         </span>
                       ))
@@ -153,9 +149,7 @@ const Portfolio = () => {
                     <a
                       href={project.previewLink}
                       className="bg-white rounded-md w-full mt-5 py-2 text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400"
-                      rel="nofollow"
-                      target="_blank"
-                    >
+                      rel="nofollow" target="_blank">
                       <span>Preview</span>
                       <SvgIcons type="visibility" width="15" height="15" className="inline-block" />
                     </a>
@@ -163,8 +157,7 @@ const Portfolio = () => {
                       <a
                         href={project.githubLink}
                         className="bg-white rounded-md w-[30%] mt-5 py-[0.59rem] text-sm text-black space-x-3 justify-center text-center font-bold flex items-center hover:bg-gray-400"
-                        target="_blank"
-                      >
+                        target="_blank">
                         <i className="!text-[1rem] fa-brands fa-github"></i>
                       </a>
                     )}

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Anas Yakubu - Portfolio",
         description: "4+ years of experience in software development.",
-        url: "https://treasureuzoma.netlify.app",
+        url: "https://anasyakubu.netlify.app/",
         images: [
             {
                 url: "https://anasyakubu.netlify.app/images/preview.png",

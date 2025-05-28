@@ -12,40 +12,35 @@ const Qualifications = () => {
       items: [
         {
           id: 1,
-          title: "Computer Science",
-          place: "Lasustech, Nigeria",
-          date: "2024 till date",
+          title: "Information Technology",
+          place: "BUK, Nigeria",
+          date: "2022 till date",
         },
         {
           id: 2,
-          title: "Frontend Development",
-          place: "Sololearn",
-          date: "2021 - 2023",
+          title: "Backend Development",
+          place: "NYM",
+          date: "2020 - 2024",
         },
         {
           id: 3,
           title: "Frontend Development",
-          place: "Programming Hero",
-          date: "2020 - 2021",
+          place: "Sololearn",
+          date: "2018 - 2020",
         },
-        {
-          id: 4,
-          title: "Web Development",
-          place: "W3schools",
-          date: "2020 till date",
-        },
+
       ],
     },
     {
       type: "Work",
       items: [
-        { id: 5, title: "Software Engineer", place: "InfinitySwap", date: "2024" },
-        { id: 6, title: "Frontend Developer", place: "Gappay NG", date: "2024" },
+        { id: 5, title: "Software Engineer", place: "NYM Technologies Limited", date: "2018 till date" },
+        { id: 6, title: "Frontend Developer", place: "Belsof System", date: "2024 - 2025" },
         {
           id: 7,
-          title: "Frontend Developer",
-          place: "Code Byte Agency",
-          date: "2023 till date",
+          title: "Backend Intern",
+          place: "Programmfy",
+          date: "2024",
         },
       ],
     },
@@ -68,11 +63,10 @@ const Qualifications = () => {
             {sections.map((section, index) => (
               <h3
                 key={section.type}
-                className={`cursor-pointer px-[1.3rem] flex items-center justify-center ${
-                  showEducation === (index === 0)
-                    ? "text-[#34afcb]"
-                    : "text-[#a3afb2]"
-                } space-x-3 text-xl font-bold`}
+                className={`cursor-pointer px-[1.3rem] flex items-center justify-center ${showEducation === (index === 0)
+                  ? "text-[#34afcb]"
+                  : "text-[#a3afb2]"
+                  } space-x-3 text-xl font-bold`}
                 onClick={() => setShowEducation(index === 0)}
               >
                 <SvgIcons

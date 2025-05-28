@@ -95,7 +95,7 @@
   "description": "My Personal Portfolio Website",
    "tags": ["Typescript", "TailwindCSS", "aws", "nodejs", "Framer Motion", "Mongoose", "NextAuth"],
   "status": "Live",
-    "githubLink": "",
+    "githubLink": "https://github.com/anasyakubu/Portfolio",
   "projectImage": "https://res.cloudinary.com/do52dpekr/image/upload/v1733169200/anasyakubu-cms-images/1a69ccee-8549-4ec2-8941-fe98f1e9e88e.png",
   "previewLink": "https://anasyakubu.vercel.app",
   "createdAt": {

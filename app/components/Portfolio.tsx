@@ -86,7 +86,7 @@ const Portfolio = () => {
                     </div>
                   </div>
 
-                  <p className="text-xl text-white font-clash text-left">
+                  <p className="text-xl font-bold text-white font-clash text-left">
                     {project.title}
                   </p>
                   <p className="text-sm font-rubik text-[#808e91] leading-[1.4rem] mt-2 text-left">
@@ -134,7 +134,7 @@ const Portfolio = () => {
           {totalPages > 1 && (
             <div className="flex justify-center items-center mt-8 gap-2">
               {/* Previous Button */}
-              <button
+              {/* <button
                 onClick={handlePrevious}
                 disabled={currentPage === 1}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${currentPage === 1
@@ -144,7 +144,7 @@ const Portfolio = () => {
                 aria-label="Previous page"
               >
                 ←
-              </button>
+              </button> */}
 
               {/* Page Numbers */}
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNumber) => (
@@ -163,7 +163,7 @@ const Portfolio = () => {
               ))}
 
               {/* Next Button */}
-              <button
+              {/* <button
                 onClick={handleNext}
                 disabled={currentPage === totalPages}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${currentPage === totalPages
@@ -173,7 +173,7 @@ const Portfolio = () => {
                 aria-label="Next page"
               >
                 →
-              </button>
+              </button> */}
             </div>
           )}
 

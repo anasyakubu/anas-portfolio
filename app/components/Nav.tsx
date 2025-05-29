@@ -6,10 +6,7 @@ const Nav = () => {
                     <span className="text-base font-bold font-clash">
                         Anas Yakubu ⚡
                     </span>
-                    <a
-                        href="https://www.github.com/anasyakubu"
-                        target="_blank"
-                    >
+                    <a href="https://www.github.com/anasyakubu" target="_blank"  >
                         <i className="fab fa-github text-[1.28rem] hover:text-[1.33rem]"></i>
                     </a>
                 </div>
